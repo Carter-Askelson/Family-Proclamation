@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Join Page</title>
+        <title>Family Proclamation Mainpage</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Carter Askelson">
-        <meta name="description" content= "City Page by Carter Askelson">
+        <meta name="description" content= "Family Proclamation Mainpage by Carter Askelson">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
@@ -20,86 +20,47 @@
             </picture>
             <section class="heading">
                 <h1>Family Proclamation Learning Center</h1>
-                <div class="motto">"Sustainable Growth Forever"</div>
+                <div class="motto">"Families Are Forever"</div>
             </section>
         </header>
         <nav>
             <ul class="nav_bar">
                 <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a  href= "/wdd230/final_project/main.html">Home</a></li>         
-                <li><a href="/wdd230/final_project/city/city.html">City</a></li>
-                <li><a class= "active" href="/wdd230/final_project/join/join.html">Join</a></li>
-                <li><a href= "/wdd230/final_project/directory/directory.html">Directory</a></li>
-                <li><a href= "/wdd230/final_project/contact/contact.html">Contact</a></li>                                                    
+                <li><a href= "index.html">Home</a></li>
+                <li><a href="city/city.html">Family Science</a></li>
+                <li><a href= "contact/contact.html">Eternal Nature</a></li>        
+                <li><a class= "active" href="join/join.html">Marriage</a></li>
+                <li><a href="page6/page6.html">Motherhood</a></li>
+                <li><a href="page7/page7.html">Fatherhood</a></li>
+                <li><a href="page8/page8.html">Sanctity of Life</a></li>
+                <li><a href= "directory/directory.html">Sharing</a></li>
             </ul>
         </nav>
         <main>
-            <h2>Guild Entrance Form</h2>
-                <form method="GET" action="thanks.html">
-                    <fieldset>
-                        <legend>Your Information</legend>
-                        <label class="user_info">
-                            *First Name: <input type="text" name="first name" required>
-                        </label>
-                        <label class="user_info">
-                            *Last Name: <input type="text" name="last name" required>
-                        </label>
-                        <label class="user_info">
-                            Title: <input type="text" name="title" placeholder="CEO">
-                        </label>
-                        <label class="user_info">
-                            *Email: <input type="email" name="email" placeholder="guild-submission@guild.com" required>
-                        </label>
-                        <label class="user_info">
-                            Phone: <input type="tel" name="phone" title="Full 10 Number Phone Number Required" placeholder="012-345-6789">
-                        </label>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Business Information</legend>
-                        <label class="business_info">
-                            *Business Name: <input type="text" name="business name" required>
-                        </label>
-                        <label class="business_info">
-                            Business Address: <input type="text" name="business address" placeholder="missing address">
-                        </label>
-                        <label class="business_info">
-                            Business Website: <input type="text" name="business website" placeholder="www.placeholder.com">
-                        </label>
-                        <label class="business_info">
-                            Business Description: <input type="text" name="business description" placeholder="null">
-                        </label>
-                        <div class="business_info">
-                            <p>Membership Level:</p>
-                            <label class="radios"><input type="radio" name="membership_level" value="yes">
-                            <span class="option">Gold ($1000)</span>
-                            </label>
-                            <label class="radios"><input type="radio" name="membership_level" value="maybe">
-                            <span class="option">Silver ($400)</span>
-                            </label>
-                            <label class="radios"><input type="radio" name="membership_level" value="no">
-                            <span class="option">Bronze ($200)</span>
-                            </label>
-                            <label class="radios"><input type="radio" name="membership_level" value="no">
-                            <span class="option">Non-Profit ($100)</span>
-                            </label>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Additional Comments</legend>
-                        <label class="additional_comments">Comments: </label>
-                        <textarea name="comments" id="comments"></textarea>
-                    </fieldset>
-                    <input class="submit_button" type="submit" value="Submit Inquiry">
-                </form>   
+            <div class="home_grid">
+                <img class="home_headline-1" id="article_pic" src="images/join_pic.jpg" alt="join_pic">
+                <h3 class="home_headline-1">Call to Join</h3>
+                <p class="home_paragraph-1">&emsp;&emsp;"The great City of Rexburg needs you, yes You!  According to the massive demographic boosts that our magnificent city
+                    is recieivng it looks like 2022 is going to be our busiest year yet! So if you are a fledgling entrepneur or an established head of a successful company
+                    please come on down to join the Rexburg Commercial Guild.  We have your growth as our goal!"
+            </div>
+            
+            <div class="home_grid">
+                <img class="home_headline-2" id="article_pic" src="images/event_pic.jpg" alt="pool_pic">
+                <h3 class="home_headline-2">Upcoming Events</h3>
+                <p class="home_paragraph-2">&emsp;&emsp;"Due to massive demand we are happy to announce the return of Rexburg's water park.  The park was closed temporarily
+                    due the restrictions that affected us all during the pandemic.  Luckily for the citizens of Rexburg, the restrictions are starting to lift.  This has
+                    given the City Council the hope and optimism to annouce the park's return.  Stay tuned for more annoucements."
+            </div>
         </main>
     <footer>
         <div>
             &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
             <a href="https://www.facebook.com/">
-            <img src="https://i.ibb.co/pxbPN2r/facebook.png" alt="Facebook">
+            <img class= "social" src="https://i.ibb.co/pxbPN2r/facebook.png" alt="Facebook">
             </a>
             <a href="https://www.twitter.com">
-            <img src="https://i.ibb.co/bPFbv3v/twitter.png" alt="Twitter">
+            <img class= "social" src="https://i.ibb.co/bPFbv3v/twitter.png" alt="Twitter">
             </a>
         </div>
     </footer>
